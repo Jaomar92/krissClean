@@ -40,9 +40,9 @@ const Quote = () => {
                   equipment to deliver outstanding results every time. We
                   believe in providing excellent value for your money, offering
                   competitively priced services that exceed expectations.
-                  Whether it's our soft furniture cleaning services or vacuum
-                  rentals, you can rely on KrisClean Services for top-notch
-                  quality and reliability....
+                  Whether it&apos;s our soft furniture cleaning services or
+                  vacuum rentals, you can rely on KrisClean Services for
+                  top-notch quality and reliability....
                 </p>
               </div>
             </div>
