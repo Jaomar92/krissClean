@@ -32,27 +32,17 @@ const Quote = () => {
                   How it Started
                 </h4>
                 <p className="text-lg font-sans m-2">
-                  I use to spend my <strong>whole weekends</strong> playing
-                  video games.
-                  <br />
-                  <br />
-                  Being frequently scolded by my wife on why I can keep my
-                  Gaming PC area clean and the car but cant keep anywhere else
-                  in the house clean.
-                  <br />
-                  <br />
-                  with that I knew I had to change and began looking at my house
-                  as both of those things when it came to keeping things tidy.
-                </p>
-                <p className="text-lg font-sans m-2">
-                  Later I found myself being complimented for the effort I put
-                  in cleaning, where friends and family began paying for my
-                  services.
-                  <br />
-                  <br />
-                  Currently offering my services to the everyone within Gombak
-                  Selangor area and still playing games on my very expensive,
-                  high-spec and tom-yam lights Gaming-PC.
+                  KrisClean Services is dedicated to prioritizing customer
+                  satisfaction through a meticulous approach to delicate fabric
+                  handling, ensuring that even the most sensitive materials are
+                  treated with care. Our team of trained professionals follows
+                  stringent work processes, utilizing advanced techniques and
+                  equipment to deliver outstanding results every time. We
+                  believe in providing excellent value for your money, offering
+                  competitively priced services that exceed expectations.
+                  Whether it's our soft furniture cleaning services or vacuum
+                  rentals, you can rely on KrisClean Services for top-notch
+                  quality and reliability.
                 </p>
               </div>
             </div>
