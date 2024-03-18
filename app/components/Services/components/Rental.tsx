@@ -28,7 +28,7 @@ const Rental = () => {
           <div
             className="w-full h-ful rounded-lg shadow-lg"
             style={{
-              backgroundImage: "url(/Assets/carpet-vacuuming.png)",
+              backgroundImage: "url(/Assets/Carpet-vacuuming.png)",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "bottom",
