@@ -1,6 +1,6 @@
 "use client";
 import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 const Items = [
   {
@@ -32,11 +32,11 @@ const SliderCarousel = () => {
 
     setIndex(newIndex);
   };
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     const isLastSlide = index === Items.length - 1;
     const newIndex = isLastSlide ? 0 : index + 1;
     setIndex(newIndex);
-  };
+  }, [index]);
 
   const goToSlide = (index: number) => {
     setIndex(index);

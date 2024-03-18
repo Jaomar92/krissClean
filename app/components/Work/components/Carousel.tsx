@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode, useEffect, useState } from "react";
+import React, { ReactNode, useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -22,8 +22,11 @@ const Carousel: React.FC<CarouselProps> = ({
   const prev = () =>
     setCurr((curr) => (curr === 0 ? (childArray.length ?? 0) - 1 : curr - 1)); // Change `ImageGallery` to `children`
 
-  const next = () =>
-    setCurr((curr) => (curr === (childArray.length ?? 0) - 1 ? 0 : curr + 1)); // Change `ImageGallery` to `children`
+  const next = useCallback(
+    () =>
+      setCurr((curr) => (curr === (childArray.length ?? 0) - 1 ? 0 : curr + 1)),
+    [childArray.length]
+  ); // Change `ImageGallery` to `children`
 
   const setIndex = (index: number) => {
     setCurr(index);
