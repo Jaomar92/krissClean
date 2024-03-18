@@ -41,16 +41,14 @@ const SliderCarousel = () => {
   const goToSlide = (index: number) => {
     setIndex(index);
   };
-  //   useEffect(() => {
-  //     setInterval();
-  //   });
+
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [index]);
+  }, [index, nextSlide]);
 
   return (
     <div className="container my-6">

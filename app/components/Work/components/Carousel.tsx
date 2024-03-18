@@ -34,7 +34,7 @@ const Carousel: React.FC<CarouselProps> = ({
       slideInterval = setInterval(next, autoSlideInterval);
     }
     return () => clearInterval(slideInterval);
-  }, [autoSlide, autoSlideInterval, isHovered]);
+  }, [autoSlide, autoSlideInterval, isHovered, next]);
 
   return (
     <div
